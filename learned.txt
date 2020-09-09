@@ -1,0 +1,10 @@
+html {
+  scroll-snap-type: y mandatory;
+}
+
+.videoCard {
+  scroll-snap-align: start;
+}
+
+
+- react-ticker - for ticker

@@ -1,0 +1,55 @@
+.videoFooter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  padding: 10px;
+}
+
+.videoFooter__text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.videoFooter__text > h3 {
+  margin-left: 20px;
+}
+
+.videoFooter__text > h3 > button {
+  color: white !important;
+  text-transform: inherit;
+  font-weight: 900;
+}
+
+.videoFooter__icon {
+  position: absolute;
+}
+
+.videoFooter__ticker {
+  margin-bottom: 10px;
+}
+
+.videoFooter__ticker > .ticker {
+  width: 50%;
+  height: fit-content;
+  margin-left: 40px;
+}
+
+.videoFooter__actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.videoFooter__actionsLeft > * {
+  margin-left: 10px;
+}
+
+.videoFooter__actionsRight {
+  display: flex;
+}
+
+.videoFooter__stat {
+  display: flex;
+  margin-right: 20px;
+}
